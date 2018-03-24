@@ -7,6 +7,8 @@ const jwt = require('')
 // let encoded = btoa(username + ':' + password);
 // let header = 'Authorization: Basic ' + encoded;
 
+route.get('/signup')
+
 
 route.get('/signin', (req, res) => {
     let authHeader = req.get('Authorization');
